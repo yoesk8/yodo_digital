@@ -11347,3 +11347,35 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-right: 8px;        /* Smaller margin between icon and text */
   font-size: 18px;          /* Adjust icon size */
 }
+
+.card-deck .card {
+  min-width: 200px;
+}
+.feature-list {
+  list-style-type: none;
+  padding: 0;
+}
+.feature-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+.feature-list .fa-check {
+  color: green;
+}
+.feature-list .fa-times {
+  color: red;
+}
+
+.bg-bronze {
+  background-color: #cd7f32; /* Bronze color */
+  color: white;
+}
+.bg-silver {
+  background-color: #c0c0c0; /* Silver color */
+  color: black;
+}
+.bg-gold {
+  background-color: #ffd700; /* Gold color */
+  color: black;
+}
