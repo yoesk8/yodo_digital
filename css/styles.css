@@ -11324,9 +11324,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .whatsapp-button {
   position: fixed;
-  bottom: 20px;
-  left: 50%;                /* Position from the left side */
-  transform: translateX(-50%);  /* Center horizontally */
+  bottom: 20px;             /* Distance from the bottom */
+  right: 20px;              /* Distance from the right side */
   display: inline-flex;
   align-items: center;
   background-color: #25D366;
@@ -11347,6 +11346,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-right: 8px;        /* Smaller margin between icon and text */
   font-size: 18px;          /* Adjust icon size */
 }
+
 
 .card-deck .card {
   min-width: 200px;
